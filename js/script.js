@@ -29,6 +29,7 @@ let accountForm = document.querySelector('.account-form')
 
 document.querySelector('#account-btn').onclick = () =>{
   accountForm.classList.add('active');
+  // window.location='https://localhost/project/login.php'
 }
 
 document.querySelector('#close-form').onclick = () =>{

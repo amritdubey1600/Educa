@@ -11,7 +11,9 @@
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
-
+span{
+  margin-bottom: 2em;
+}
 img {
   -webkit-user-select: none;
      -moz-user-select: none;
