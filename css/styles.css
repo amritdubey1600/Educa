@@ -20,7 +20,6 @@ img {
       -ms-user-select: none;
           user-select: none;
 }
-
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -80,8 +79,11 @@ body{
   text-transform: capitalize;
   color: #fff;
 }
-
+.search-section .button-container{
+  text-align: center;
+}
 .btn {
+  margin-left: 15px;
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
@@ -277,7 +279,8 @@ body{
 }
 
 .account-form .buttons .btn {
-  margin: 0 .5rem;
+  margin: 1rem .5rem;
+  width:25rem;
 }
 
 .account-form .buttons .btn.active {
